@@ -7,3 +7,4 @@ USES:
 * gulp-ruby-sass
 * gulp-stylus
 * ng-resource
+* bootstrap
