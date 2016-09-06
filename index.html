@@ -15,8 +15,33 @@
 "></script>
 </head>
 <body ng-app="myapp">
-  <h1>Attempt at using Angular's NG-Resource for full crud with an API.</h1>
+  <div class="container-fluid">
+  <div class="jumbotron">
+    <h3>Attempt at using Angular's NG-Resource for full crud with an API.</h3>
+  </div>
 
+  <div ng-controller="">
+    <table class="table-bordered col-xs-12">
+      <thead>
+        <tr>
+          <td>STUDENT</td>
+          <td>GRADE</td>
+          <td>UPDATE</td>
+          <td>DELETE</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td ng-repeat="">{{student.name}}</td>
+          <td>{{student.grade}}</td>
+          <td><button class="btn btn-info">UPDATE</button></td>
+          <td><button class="btn btn-danger">DELETE</button></td>
+        </tr>
 
+      </tbody>
+    </table>
+  </div>
+
+  </div>
 </body>
 </html>
