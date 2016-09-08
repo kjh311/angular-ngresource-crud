@@ -8,3 +8,6 @@ USES:
 * gulp-stylus
 * ng-resource
 * bootstrap
+* express
+* mongoose
+* body-parser
